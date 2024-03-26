@@ -16,6 +16,10 @@
             $this->disputata = $disputata;
         }
 
+        function getId(){
+            return $this->id;
+        }
+
         function isDisputata(){
             return $this->disputata;
         }
