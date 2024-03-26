@@ -11,8 +11,8 @@
 
         function jsonSerialize(){
             return [
-                "nome"=>parent->getNome(),
-                "colore"=>parent->getColore(),
+                "nome"=>parent::getNome(),
+                "colore"=>parent::getColore(),
                 "codice_csen"=>$this->codice_csen,
                 "p_iva"=>$this->p_iva
             ];

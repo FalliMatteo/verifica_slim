@@ -9,8 +9,8 @@
 
         function jsonSerialize(){
             return [
-                "nome"=>parent->getNome(),
-                "colore"=>parent->getColore(),
+                "nome"=>parent::getNome(),
+                "colore"=>parent::getColore(),
                 "categoria"=>$this->categoria
             ];
         }

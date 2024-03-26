@@ -7,7 +7,6 @@ require __DIR__ . '/vendor/autoload.php';
 include_once "controllers/IndexController.php";
 include_once "controllers/SquadreController.php";
 include_once "controllers/TorneoController.php";
-include_once "controllers/ApiController.php";
 
 $app = AppFactory::create();
 
