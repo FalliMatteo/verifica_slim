@@ -1,5 +1,5 @@
 <?php
-    class Collettivita implements jsonSerializable{
+    class Partita implements jsonSerializable{
         private $id;
         private $squadra1;
         private $squadra2;
