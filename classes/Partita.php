@@ -26,7 +26,8 @@
                 "squadra1"=>$this->squadra1,
                 "squadra2"=>$this->squadra2,
                 "goal1"=>$this->goal1,
-                "goal2"=>$this->goal2
+                "goal2"=>$this->goal2,
+                "disputata"=>$this->disputata
             ];
         }
     }

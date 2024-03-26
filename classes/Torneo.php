@@ -5,19 +5,11 @@
         private $data;
         private $partite;
 
-        function __construct($codice, $sede, $data){
+        function __construct($codice, $sede, $data, $partite){
             $this->codice = $codice;
             $this->sede = $sede;
             $this->data = $data;
-        }
-
-        function getPersona($codice){
-            foreach($this->persone as $persona){
-                if($persona->getCodiceFiscale() === $codice){
-                    return $persona;
-                }
-            }
-            return null;
+            $this->partite = $partite;
         }
 
         function addPartita($partita){
